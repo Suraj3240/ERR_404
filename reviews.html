@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>Modern Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+</head>
+
+<body>
+    <input type="checkbox" id="menu-toggle">
+    <div class="sidebar">
+        <div class="side-header">
+            <h3>M<span>odern</span></h3>
+        </div>
+
+        <div class="side-content">
+            <div class="profile">
+                <div class="profile-img bg-img" style="background-image: url(img/Folded-Hands.webp)"></div>
+                <h4>You</h4>
+                <small>Smart Customer</small>
+            </div>
+
+            <div class="side-menu">
+                <ul>
+                    <li>
+                        <a href="index.html" class="active">
+                            <span class="las la-home"></span>
+                            <small>Dashboard</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="las la-user-alt"></span>
+                            <small>Profile</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="more_analytics.html">
+                            <span class="las la-user-alt"></span>
+                            <small>More Analytics</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="compare.html">
+                            <span class="las la-user-alt"></span>
+                            <small>Compare</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="reviews.html">
+                            <span class="las la-user-alt"></span>
+                            <small>Reviews</small>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+
+        <header>
+            <div class="header-content">
+                <label for="menu-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+
+                <div class="header-menu">
+                    <label for="">
+                        <span class="las la-search"></span>
+                    </label>
+
+                    <div class="notify-icon">
+                        <span class="las la-envelope"></span>
+                        <span class="notify">4</span>
+                    </div>
+
+                    <div class="notify-icon">
+                        <span class="las la-bell"></span>
+                        <span class="notify">3</span>
+                    </div>
+
+                    <div class="user">
+                        <div class="bg-img" style="background-image: url(img/1.jpeg)"></div>
+
+                        <span class="las la-power-off"></span>
+                        <span>Logout</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="page-header">
+                <h1>Compare</h1>
+                <small>Home / Compare</small>
+                <!-- Dropdown Menu -->
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Select
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><button class="dropdown-item" type="button">Amazon</button></li>
+                        <li><button class="dropdown-item" type="button">Flipkart</button></li>
+                        <li><button class="dropdown-item" type="button">Shopclues</button></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <div class="graph">
+            <p>Which website performs better?</p>
+            <img src="img/Reviews/users_graph.png" alt="">
+        </div>
+        <div class="verdict">
+            <h2>VERDICT</h2>
+            <p><em>Amazon</em> perform much better than its competitor ie. Flipkart in the e-commerce domains by
+                providing
+                the same products at much affordable rates and better after delivery services.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sunt totam repellat. Laboriosam tenetur
+                amet
+                alias nulla, corporis fugiat? Aspernatur, aliquid quae aliquam fuga inventore perspiciatis totam nobis
+                incidunt iusto.</p>
+        </div>
+        <div class="disclaimer">
+            <h4>Disclaimer</h4>
+            <p>The data/results shown here are purely based on our algorithm and has nothing to do with private
+                partnership. </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>
