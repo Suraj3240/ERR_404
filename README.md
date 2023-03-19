@@ -17,7 +17,7 @@ Shopify
 5. Mihir Vora
 
 ### Please see the other branches for codes.
-Branch:
-Suraj - Dashboard
-Dhruv - E-commerce dummy website
-Avishkar - Backend 
+Branches:
+- Suraj - Dashboard
+- Dhruv - E-commerce dummy website
+- Avishkar - Backend 
